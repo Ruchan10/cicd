@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-export default function Users() {
+export default function Users(handleDelete) {
     const [users,setUsers]=useState([])
     const [error,setError]=useState(null)
     useEffect(()=>{

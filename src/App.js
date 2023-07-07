@@ -8,7 +8,7 @@ function App() {
   return (
     <div >
       
-      <Users/>
+      <Users handleDelete={handleDelete}/>
     </div>
   );
 }
